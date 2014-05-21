@@ -255,12 +255,12 @@ term () {
         echo
         echo "sections:"
         echo
-        echo "  start"
-        echo "  end"
-        echo "  up"
-        echo "  down"
-        echo "  line"
-        echo "  screen"
+        echo "  start                  Start of line"
+        echo "  end                    End of line"
+        echo "  up                     Upper section"
+        echo "  down                   Lower section"
+        echo "  line                   Current line"
+        echo "  screen                 Entire screen"
       }
 
       return 0
