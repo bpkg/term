@@ -70,6 +70,31 @@ sections:
   screen                 Entire screen
 ```
 
+## histogram
+
+See `example.sh`
+
+```
+  .
+
+  .
+
+  .
+
+  .
+
+  .
+                                                        █
+  .                                                     █
+                                                        █
+  .                                                     █
+                                            █           █
+  .                                         █           █
+                                            █           █
+                                            █           █
+  .     █     █     █     █     █     █     █     █     █     █     █
+```
+
 ## license
 
 MIT
