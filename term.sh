@@ -254,7 +254,7 @@ term () {
         echo "  screen"
       }
 
-      exit 0
+      return 0
       ;;
 
     *)
