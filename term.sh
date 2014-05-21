@@ -1,5 +1,9 @@
 #!/bin/bash
 
+## version
+VERSION="0.0.1"
+
+## coords
 let _x=0
 let _y=0
 
@@ -181,6 +185,11 @@ term () {
   case "${arg}" in
 
     ## flags
+    -V|--version)
+      echo "${VERSION}"
+      return 0
+      ;;
+
     -h|--help)
       usage
 
