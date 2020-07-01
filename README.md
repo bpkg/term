@@ -72,7 +72,7 @@ sections:
 
 ## histogram
 
-See `example.sh`
+See [`example.sh`](https://github.com/bpkg/term/blob/master/example.sh)
 
 ```
   .
