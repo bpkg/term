@@ -3,6 +3,7 @@ BIN ?= term
 PREFIX ?= /usr/local
 
 install:
+	mkdir -p $(PREFIX)/bin
 	cp term.sh $(PREFIX)/bin/$(BIN)
 
 uninstall:
